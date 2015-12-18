@@ -11,7 +11,7 @@ There are two flavors — raw JavaScript and, jQuery. The JavaScript version do
 
 Here's what it looks like!
 
-![](https://cloud.githubusercontent.com/assets/1288356/11889909/559a9892-a51c-11e5-89be-73b9bf1f6f67.png)
+![](https://cloud.githubusercontent.com/assets/1288356/11890468/ca13f30c-a522-11e5-98d5-90882bba42aa.jpg)
 
 
 
