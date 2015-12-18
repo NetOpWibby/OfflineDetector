@@ -8,8 +8,6 @@
 //------------------------------
 
 function update() {
-  console.log(navigator.onLine ? ">> STATUS: Online": ">> STATUS: Offline");
-
   if (!navigator.onLine) {
     var appOfflineDiv = document.createElement("div");
 
@@ -24,6 +22,7 @@ function update() {
     appOfflineDiv.style.color = "white";
     appOfflineDiv.style.cursor = "default";
     appOfflineDiv.style.fontSize = "1rem";
+    appOfflineDiv.style.fontWeight = 600;
     appOfflineDiv.style.lineHeight = "1.33";
     appOfflineDiv.style.padding = "1rem";
     appOfflineDiv.style.position = "fixed";

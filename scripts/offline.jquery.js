@@ -8,8 +8,6 @@
 //------------------------------
 
 function update() {
-  console.log(navigator.onLine ? ">> STATUS: Online": ">> STATUS: Offline");
-
   if (!navigator.onLine) {
     $("body").prepend(
       "<div class='app-offline'>" +
@@ -25,6 +23,7 @@ function update() {
       "color": "white",
       "cursor": "default",
       "font-size": "1rem",
+      "font-weight": 600,
       "line-height": "1.33",
       "padding": "1rem",
       "position": "fixed",
